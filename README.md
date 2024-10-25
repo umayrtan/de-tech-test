@@ -22,13 +22,13 @@ The pipeline performs the following steps:
 
 To run the first task pipeline, execute the `task_1.py` script:
 
-```sh
+
 python task_1.py
 
 ## Running the task 2 Pipeline
 
 Or to run the second task pipeline, execute the `task_2.py` script:
 
-```sh
+
 python task_2.py
 
