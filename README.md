@@ -18,14 +18,16 @@ The pipeline performs the following steps:
 5. **Format Output**: Formats the output as JSON strings.
 6. **Write Results**: Writes the results to a jsonl.gz file.
 
-## Running the Pipeline
+## Running the task 1 Pipeline
 
 To run the first task pipeline, execute the `task_1.py` script:
 
 ```sh
 python task_1.py
 
-or to run the second task pipeline, execute the `task_2.py` script:
+## Running the task 2 Pipeline
+
+Or to run the second task pipeline, execute the `task_2.py` script:
 
 ```sh
 python task_2.py
