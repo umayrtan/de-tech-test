@@ -1,7 +1,7 @@
 # de-tech-test
 # Apache Beam Transaction Processing Pipeline
 
-This project contains an Apache Beam pipeline for processing transaction data from a CSV file. The pipeline filters transactions based on specific criteria, sums the transaction amounts by date, and outputs the results in JSON format.
+This project contains an Apache Beam pipeline for processing transaction data from a CSV file. The pipeline filters transactions based on specific criteria, sums the transaction amounts by date, and outputs the results in JSONL.gz format.
 
 ## Project Structure
 - `task_1.py`: Contains the main Apache Beam pipeline code, satisfying task 1.
