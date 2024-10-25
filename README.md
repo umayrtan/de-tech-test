@@ -29,6 +29,39 @@ python task_1.py
 
 Or to run the second task pipeline, execute the `task_2.py` script:
 
-
 python task_2.py
+
+## Unit Tests
+Unit tests are provided in the unit_test.py file. The tests verify the functionality of the ProcessTransactions composite transform.
+
+To run the tests, execute the unit_test.py script:
+
+python unit_test.py
+
+## Dependencies
+Apache Beam
+Python 3.x
+You can install the required dependencies using pip:
+
+pip install apache-beam
+
+## Example Input
+The input CSV file should have the following format:
+
+transaction_amount,date
+21,2011-01-01
+354325,2001-01-01
+210931,2020-01-01
+1,2019-01-01
+21029344,2020-01-01
+21,2011-01-01
+
+## Example Output
+The output JSONL file will have the following format:
+
+{"date": "2011-01-01", "total_amount": 42.00}
+{"date": "2020-01-01", "total_amount": 21240275.00}
+
+
+
 
