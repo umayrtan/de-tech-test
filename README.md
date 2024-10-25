@@ -48,18 +48,18 @@ You can install the required dependencies using pip:
 ## Example Input
 The input CSV file should have the following format:
 
-transaction_amount,date
-21,2011-01-01
-354325,2001-01-01
-210931,2020-01-01
-1,2019-01-01
-21029344,2020-01-01
-21,2011-01-01
+transaction_amount,date<br />
+21,2011-01-01<br />
+354325,2001-01-01<br />
+210931,2020-01-01<br />
+1,2019-01-01<br />
+21029344,2020-01-01<br />
+21,2011-01-01<br />
 
 ## Example Output
 The output JSONL file will have the following format:
 
-{"date": "2011-01-01", "total_amount": 42.00}
+{"date": "2011-01-01", "total_amount": 42.00}<br />
 {"date": "2020-01-01", "total_amount": 21240275.00}
 
 
