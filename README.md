@@ -23,27 +23,27 @@ The pipeline performs the following steps:
 To run the first task pipeline, execute the `task_1.py` script:
 
 
-python task_1.py
+`python task_1.py`
 
 ## Running the task 2 Pipeline
 
 Or to run the second task pipeline, execute the `task_2.py` script:
 
-python task_2.py
+`python task_2.py`
 
 ## Unit Tests
-Unit tests are provided in the unit_test.py file. The tests verify the functionality of the ProcessTransactions composite transform.
+Unit tests are provided in the `unit_test.py` file. The tests verify the functionality of the ProcessTransactions composite transform.
 
-To run the tests, execute the unit_test.py script:
+To run the tests, execute the `unit_test.py` script:
 
-python unit_test.py
+`python unit_test.py`
 
 ## Dependencies
 Apache Beam
 Python 3.x
 You can install the required dependencies using pip:
 
-pip install apache-beam
+`pip install apache-beam`
 
 ## Example Input
 The input CSV file should have the following format:
